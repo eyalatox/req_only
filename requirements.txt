@@ -10,3 +10,4 @@ qrcode
 requests==2.1.0
 pyyaml==3.10
 pandas
+parse2csv==0.1.4
