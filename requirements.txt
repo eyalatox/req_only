@@ -7,7 +7,7 @@ jsonschema
 PyJWT
 pyotp
 qrcode
-requests==2.1.0
+requests==2.28.2
 pyyaml==3.10
 pandas
 parse2csv==0.1.4
