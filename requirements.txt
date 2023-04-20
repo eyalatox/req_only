@@ -4,7 +4,7 @@ cryptography
 Flask==0.12.5
 geoip2
 jsonschema
-PyJWT
+pyjwt[crypto]==2.1.0
 pyotp
 qrcode
 requests==2.1.0
