@@ -7,8 +7,8 @@ jsonschema
 pyjwt[crypto]==2.1.0
 pyotp
 qrcode
-requests==2.1.0
-pyyaml==3.10
+requests~=2.1.0
+pyyaml==3.12
 pandas
 parse2csv==0.1.4
 Django==1.9.6
