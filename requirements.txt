@@ -1,14 +1,16 @@
 ujson==1.35
 click
 Flask==0.12.5
-geoip2
+geoip2[all]
 jsonschema
 pyjwt[crypto]==2.1.0
 pyotp
 qrcode
 requests~=2.1.0
 pyyaml==3.12
+numpy~=1.22.1
 pandas
 parse2csv==0.1.4
 Django==1.9.6
 django-debug-toolbar==1.4
+celery[redis, pytest]==5.2.1
