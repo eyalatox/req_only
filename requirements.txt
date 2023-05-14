@@ -7,7 +7,7 @@ pyjwt[crypto]==2.1.0
 pyotp
 qrcode
 requests~=2.1.0
-pyyaml==3.12
+pyyaml==3.13rc1
 numpy~=1.22.1
 pandas
 parse2csv==0.1.4
