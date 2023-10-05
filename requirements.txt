@@ -14,3 +14,4 @@ parse2csv==0.1.4
 Django==1.9.6
 django-debug-toolbar==1.4
 celery[redis, pytest]==5.2.1
+Pillow==8.3.2
