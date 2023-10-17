@@ -2,6 +2,9 @@ import pandas as pd
 import requests
 from requests import post
 
+connStr = "DemoDB_Dev; User ID = eyal; Password = LGN1cmF0aW9uLWFwaSxuZXh4;"
+
+
 print(pd.read_csv('1.csv'))
 
 HEADERS = {
@@ -16,3 +19,15 @@ res2 = requests.get('http://ox.security/', allow_redirects=True)
 
 res3 = requests.get('https://megalinter.io/', verify=False)
 
+devDBPassword = 'sa%441DB2P3a#s@s'
+
+ascii_art = r"""
+________         .__        __                               
+\_____  \   _____|__| _____/  |_  ________________    _____  
+ /   |   \ /  ___/  |/    \   __\/ ___\_  __ \__  \  /     \ 
+/    |    \\___ \|  |   |  \  | / /_/  >  | \// __ \|  Y Y  \
+\_______  /____  >__|___|  /__| \___  /|__|  (____  /__|_|  /
+        \/     \/        \/    /_____/            \/      \/ 
+"""
+
+myDevSecretKey = 'ab11a5b7f7b0a5b1defef8c6446b1769'
